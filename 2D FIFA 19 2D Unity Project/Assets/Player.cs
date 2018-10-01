@@ -8,6 +8,8 @@ public class Player : MonoBehaviour
    // float yInitial;
     public float speed;
     public float speedBall;
+    public AudioClip MusicClip;
+    public AudioSource MusicSource;
     // Use this for initialization
     void Start()
     {
@@ -15,6 +17,7 @@ public class Player : MonoBehaviour
        // yInitial = this.transform.position.y;
         speed = 5f;
         speedBall = .5f;
+        MusicSource.clip = MusicClip;
     }
 
     // Update is called once per frame
@@ -34,18 +37,22 @@ public class Player : MonoBehaviour
             if (this.transform.position.x < collision.transform.position.x && Mathf.Abs(this.transform.position.y-collision.transform.position.y)<0.2)
             {
                 ball.AddForce(transform.right * speedBall, ForceMode2D.Impulse);
+                MusicSource.Play();
             }
             else if (this.transform.position.x > collision.transform.position.x && Mathf.Abs(this.transform.position.y - collision.transform.position.y) < 0.2)
             {
                 ball.AddForce(-transform.right * speedBall, ForceMode2D.Impulse);
+                MusicSource.Play();
             }
             else if (this.transform.position.y < collision.transform.position.y && Mathf.Abs(this.transform.position.x - collision.transform.position.x) < 0.2)
             {
-                    ball.AddForce(transform.up * speedBall, ForceMode2D.Impulse);
+                ball.AddForce(transform.up * speedBall, ForceMode2D.Impulse);
+                MusicSource.Play();
             }
             else if (this.transform.position.y > collision.transform.position.y && Mathf.Abs(this.transform.position.x - collision.transform.position.x) < 0.2)
             {
                 ball.AddForce(-transform.up * speedBall, ForceMode2D.Impulse);
+                MusicSource.Play();
             }
          
         }
