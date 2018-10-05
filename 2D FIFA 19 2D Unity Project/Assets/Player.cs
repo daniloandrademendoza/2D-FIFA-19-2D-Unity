@@ -8,16 +8,17 @@ public class Player : MonoBehaviour
    // float yInitial;
     public float speed;
     public float speedBall;
-    public AudioClip MusicClip;
-    public AudioSource MusicSource;
+   // public AudioClip MusicClip;
+    //public AudioSource MusicSource;
+   // public GameObject playerName;
     // Use this for initialization
     void Start()
     {
        // xInitial = this.transform.position.x;
        // yInitial = this.transform.position.y;
-        speed = 5f;
-        speedBall = .5f;
-        MusicSource.clip = MusicClip;
+        speed = 50f;
+        speedBall = 8f;
+       // MusicSource.clip = MusicClip;
     }
 
     // Update is called once per frame
@@ -34,28 +35,48 @@ public class Player : MonoBehaviour
         {
            
             Rigidbody2D ball = collision.gameObject.GetComponent<Rigidbody2D>();
-            if (this.transform.position.x < collision.transform.position.x && Mathf.Abs(this.transform.position.y-collision.transform.position.y)<0.2)
+            if (this.transform.position.x < collision.transform.position.x && Mathf.Abs(this.transform.position.y-collision.transform.position.y)<0.3)
             {
                 ball.AddForce(transform.right * speedBall, ForceMode2D.Impulse);
-                MusicSource.Play();
+               // MusicSource.Play();
             }
-            else if (this.transform.position.x > collision.transform.position.x && Mathf.Abs(this.transform.position.y - collision.transform.position.y) < 0.2)
+            else if (this.transform.position.x > collision.transform.position.x && Mathf.Abs(this.transform.position.y - collision.transform.position.y) < 0.3)
             {
                 ball.AddForce(-transform.right * speedBall, ForceMode2D.Impulse);
-                MusicSource.Play();
+               // MusicSource.Play();
             }
-            else if (this.transform.position.y < collision.transform.position.y && Mathf.Abs(this.transform.position.x - collision.transform.position.x) < 0.2)
+            else if (this.transform.position.y < collision.transform.position.y && Mathf.Abs(this.transform.position.x - collision.transform.position.x) < 0.3)
             {
                 ball.AddForce(transform.up * speedBall, ForceMode2D.Impulse);
-                MusicSource.Play();
+              //  MusicSource.Play();
             }
-            else if (this.transform.position.y > collision.transform.position.y && Mathf.Abs(this.transform.position.x - collision.transform.position.x) < 0.2)
+            else if (this.transform.position.y > collision.transform.position.y && Mathf.Abs(this.transform.position.x - collision.transform.position.x) < 0.3)
             {
                 ball.AddForce(-transform.up * speedBall, ForceMode2D.Impulse);
-                MusicSource.Play();
+             //   MusicSource.Play();
             }
-         
+            else if(this.transform.position.y <collision.transform.position.y && this.transform.position.x < collision.transform.position.x)
+            {
+                ball.AddForce((transform.up+transform.right) * speedBall, ForceMode2D.Impulse);
+            }
+            else if (this.transform.position.y > collision.transform.position.y && this.transform.position.x < collision.transform.position.x)
+            {
+                ball.AddForce((-transform.up + transform.right) * speedBall, ForceMode2D.Impulse);
+            }
+            else if (this.transform.position.y > collision.transform.position.y && this.transform.position.x > collision.transform.position.x)
+            {
+                ball.AddForce((-transform.up + -transform.right) * speedBall, ForceMode2D.Impulse);
+            }
+            else if (this.transform.position.y < collision.transform.position.y && this.transform.position.x > collision.transform.position.x)
+            {
+                ball.AddForce((transform.up + -transform.right) * speedBall, ForceMode2D.Impulse);
+            }
+
         }
-    }
+       // if (collision.gameObject.name == "LeftGoal" || collision.gameObject.name == "GoalRight")
+       // {
+         //   MusicSource.Play();
+        //}
+        }
 
 }
