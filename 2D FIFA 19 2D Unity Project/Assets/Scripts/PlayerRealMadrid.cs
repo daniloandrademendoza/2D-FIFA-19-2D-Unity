@@ -17,7 +17,7 @@ public class PlayerRealMadrid : MonoBehaviour {
     {
         // xInitial = this.transform.position.x;
         // yInitial = this.transform.position.y;
-        speed = 50f;
+        speed = 30f;
         speedBall = 8f;
         theRB = GetComponent<Rigidbody2D>();
         // MusicSource.clip = MusicClip;
