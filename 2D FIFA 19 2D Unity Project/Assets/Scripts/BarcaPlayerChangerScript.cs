@@ -8,13 +8,13 @@ public class BarcaPlayerChangerScript : MonoBehaviour
     public GameObject player5;
     public int selectedPlayer5;
     public string playerName5;
-    private void Start()
+     void Start()
     {
         selectedPlayer5 = 0;
         playerName5 = "Messi2";
         player5 = GameObject.Find(playerName5);
     }
-    private void Update()
+     void Update()
     {
         if(Input.GetKeyDown(KeyCode.X))
         {
