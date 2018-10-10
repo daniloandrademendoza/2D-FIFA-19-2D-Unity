@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 608, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 106
+  controlID: 79
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -212,7 +212,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 107
+  controlID: 80
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -236,7 +236,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 108
+  controlID: 81
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -475,11 +475,11 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 50
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: 50
   m_LastProjectPath: C:\Users\wolve\Desktop\Danilo\Fall 2018\INFO551\2D FIFA 19 2D
     Unity\2D FIFA 19 2D Unity Project
@@ -487,8 +487,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6a0e0000
-    m_LastClickedID: 3690
+    m_SelectedIDs: 0c0a0000
+    m_LastClickedID: 2572
     m_ExpandedIDs: 00000000b80900006c0a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -633,9 +633,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 16100000
-    m_LastClickedID: 4118
-    m_ExpandedIDs: 8abaffffe6fbffff00000000f40f00002210000044100000621000007c10000096100000b6100000bc100000ce1000001a110000201100003211000054110000721100007811000086110000981100009e110000a4110000de110000f0110000fe11000040370000ac3700009a380000d4380000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: f86cfeffd06dfeff566ffeff5e6ffeff666ffeff706ffeff866ffeff867afeff5a7cfeffe47dfefff07dfefffc7dfeff0a7efeff247efeffbc93feffa09bfeff649dfeffea9efefff29efefffa9efeff109ffeff289ffeff9ea9feff92b1feff56b3feffdcb4feffe4b4feffecb4feff04b5feff1cb5feffbac7feff7ec9feff04cbfeff0ccbfeff14cbfeff2ccbfeff44cbfeffe2d7fefff6dffeffbae1feff40e3feff48e3feff50e3feff5ae3feff70e3feff38f5feff04fafeff3201ffff2807ffff600fffffe011fffffa16ffff2418ffff5019fffffa22ffffdc24ffff6226ffff6a26ffff7226ffff7c26ffff9226ffff3c3bffff1e3dffffa43effffac3effffb43effffbe3effffd43effffda59ffffbc5bffff425dffff4a5dffff525dffff5c5dffff725dffff387fffff1a81ffffa082ffffa882ffffb082ffffba82ffffd082ffff68a2ffffe6fbffff00000000f40f0000441000006210000096100000bc1000003211000078110000981100009e110000de110000fe1100006c3c0000bc3c0000343d0000aa3d0000fa4a00002856000050610000ec6e0000187000002a700000347000003e7000005e7000006870000072700000a6700000c6700000e270000018710000ee710000947c00009483000080880000d2880000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -685,14 +685,14 @@ MonoBehaviour:
     height: 475
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 1543.1744843087918
+  lastFramingTime: 672.5828844284822
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -15.473692, y: -5.5169373, z: 2.466933}
+    m_Target: {x: 496.50433, y: 392.6176, z: -8.105481}
     speed: 2
-    m_Value: {x: -15.473692, y: -5.5169373, z: 2.466933}
+    m_Value: {x: 496.50433, y: 392.6176, z: -8.105481}
   m_RenderMode: 31
   m_CameraMode:
     drawMode: 31
@@ -724,9 +724,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 109.47916
+    m_Target: 818.3828
     speed: 2
-    m_Value: 109.47916
+    m_Value: 818.3828
   m_Ortho:
     m_Target: 1
     speed: 2

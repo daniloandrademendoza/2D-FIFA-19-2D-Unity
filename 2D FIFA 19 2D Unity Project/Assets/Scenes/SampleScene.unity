@@ -825,7 +825,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 186, y: 333.7}
+  m_AnchoredPosition: {x: 178, y: 411}
   m_SizeDelta: {x: 200, y: 49.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &263641270
@@ -7032,7 +7032,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -337.2, y: -437.4}
+  m_AnchoredPosition: {x: -312.4, y: -401.1}
   m_SizeDelta: {x: 66.16, y: 28.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &641449713
@@ -7155,7 +7155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 278, y: -453}
+  m_AnchoredPosition: {x: 310, y: -413}
   m_SizeDelta: {x: 100.97, y: 24.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &651828772
@@ -12015,7 +12015,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 48, y: 343.6}
+  m_AnchoredPosition: {x: 44, y: 420}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &803727369
@@ -12758,7 +12758,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -45.7, y: 345.5}
+  m_AnchoredPosition: {x: -50, y: 421}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &963331937
@@ -13282,7 +13282,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -117, y: 333.59998}
+  m_AnchoredPosition: {x: -135, y: 409}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1236467375
@@ -46670,7 +46670,7 @@ GameObject:
   - component: {fileID: 1626055462}
   - component: {fileID: 1626055461}
   m_Layer: 0
-  m_Name: Alba
+  m_Name: Alba2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46806,7 +46806,7 @@ GameObject:
   - component: {fileID: 1628853425}
   - component: {fileID: 1628853424}
   m_Layer: 0
-  m_Name: Umtiti
+  m_Name: Umtiti2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48001,7 +48001,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 282.8, y: 343.8}
+  m_AnchoredPosition: {x: 284, y: 425}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1935092599

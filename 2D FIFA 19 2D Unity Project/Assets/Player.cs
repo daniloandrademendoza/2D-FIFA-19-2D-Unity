@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
        // yInitial = this.transform.position.y;
         speed = 50f;
         speedBall = 8f;
-        name = " ";
+        //name = " ";
         
         minDistance = 500;
         minName = " ";

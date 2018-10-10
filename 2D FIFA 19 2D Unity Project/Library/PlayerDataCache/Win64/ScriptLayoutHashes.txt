@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-C:/Users/wolve/Desktop/Build/Build7/2D FIFA 19 2D Unity Project.exe
+C:/Users/wolve/Desktop/Build/ElClasico/2D FIFA 19 2D Unity Project.exe
 SceneListBegin?
 Assets/Scenes/UIScene.unity
 Assets/Scenes/SampleScene.unity
